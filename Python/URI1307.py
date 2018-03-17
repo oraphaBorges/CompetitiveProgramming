@@ -8,6 +8,8 @@
  on Python build-in there is the math library
  whith the gdc() function, but URI don't accept that!
 '''
+cases = int(input())
+cont = 0
 
 while cases:
     cont += 1
