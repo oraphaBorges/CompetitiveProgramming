@@ -9,19 +9,12 @@
  whith the gdc() function, but URI don't accept that!
 '''
 
-def gcd(a, b):
-    if a%b == 0:
-        return b
-    return gcd(b, a%b)
-
-cases = int(input())
-cont = 0
-
 while cases:
     cont += 1
     #Convert the input in binary to integer
     s1 = int(input(),2)
     s2 = int(input(),2)
+    gcd = lambda s1,s2: s2 if s1 % s2 == 0 else gcd(s2,s1%s2)
     if (gcd(s1,s2) > 1) :
         print("Pair #{}: All you need is love!".format(cont))
     else:
