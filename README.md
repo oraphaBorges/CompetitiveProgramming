@@ -1,2 +1,2 @@
-# URI
-Repository reserved for URI online judge's solved problems.
+# Competitive Programming
+Repository reserved for online judges solved problems.
